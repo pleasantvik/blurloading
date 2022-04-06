@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.bg {
+  background-image: url(img/hero.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: -3rem;
+  left: -3rem;
+  width: calc(100vw + 6rem);
+  height: calc(100vh + 6rem);
+  z-index: -1;
+  filter: blur(3rem);
+}
+
+.loading-text {
+  font-size: 5rem;
+  color: #fff;
+}
